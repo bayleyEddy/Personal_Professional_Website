@@ -1,0 +1,126 @@
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titleContainer
+{
+    display:flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.photo
+{
+    width: 300px;
+    height: auto;
+    border: 5px solid black;
+}
+
+.aboutMe
+{
+    border: 2px solid black;
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+}
+
+.youCanFindMeHere
+{
+    border: 2px solid black;
+    background-color: greenyellow;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 115px;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    margin:20px;
+}
+
+.boldText
+{
+    font-weight: bold;
+}
+
+.dreamsAndAspirations
+{
+    margin: 20px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.professionalBackground, .skills, .goals
+{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.professionalBackground
+{
+    background-color: lightgreen;
+}
+
+.skills
+{
+    background-color: lightcoral;
+}
+
+.goals
+{
+    background-color: lightskyblue;
+}
+
+.professionalism
+{
+    border: 2px solid black;
+    margin-top: 43px;
+    margin-bottom: 80px;
+    background-color: beige;
+}
+
+.keySkills
+{
+    border: 2px solid black;
+    background-color: lightsalmon;
+    padding: 20px;
+    margin: 20px;
+}
+
+.professionalExperience
+{
+    border: 2px solid black;
+    background-color: lightseagreen;
+    padding: 20px;  
+    margin: 20px; 
+}
+
+.academicAchievement
+{
+    border: 2px solid black;
+    background-color: lightpink;
+    padding: 20px;  
+    margin: 20px; 
+}
+
+.timeline
+{
+    margin-top: 285px;
+    text-align: center;
+    margin-left: 10px;
+}
