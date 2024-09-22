@@ -60,11 +60,11 @@ body
     margin-top: 90px;
     margin-bottom: 90px;
 }
-.professionalBackground, .skills, .goals
+.professionalBackground, .skills, .goals, .connectWithMe
 {
     border: 2px solid black;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -74,6 +74,7 @@ body
 .professionalBackground
 {
     background-color: lightgreen;
+    margin-top: -80px;
 }
 
 .skills
@@ -86,11 +87,16 @@ body
     background-color: lightskyblue;
 }
 
+.connectWithMe
+{
+    background-color: violet;
+}
+
 .professionalism
 {
     border: 2px solid black;
     margin-top: 43px;
-    margin-bottom: 80px;
+    margin-bottom: 117px;
     background-color: beige;
 }
 
